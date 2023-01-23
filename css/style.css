@@ -4,6 +4,22 @@
     font-family: 'Poppins', sans-serif;
 }
 .title-font-family{
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', serif !important;
+    
 }
 
+/* Global css End */
+
+.hero-banner{
+    background-image: url("../images/banner.png") ,linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-blend-mode: overlay;
+}
+
+
+@media screen and (max-width:576px){
+    
+}
