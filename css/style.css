@@ -2,7 +2,9 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    
 }
+
 .title-font-family{
     font-family: 'EB Garamond', serif !important;
     
@@ -39,6 +41,10 @@
 
   .contact-card-bg, .contact-form-bg{
     background: #F3F3F3;
+  }
+
+  .footer-form-btn{
+    margin-left: -12px;
   }
 
   /* Mobile Responsive CSS */
