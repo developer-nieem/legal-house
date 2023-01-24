@@ -37,6 +37,9 @@
     padding-top: 130px;
   }
 
+  .contact-card-bg, .contact-form-bg{
+    background: #F3F3F3;
+  }
 
   /* Mobile Responsive CSS */
 @media screen and (max-width:576px){
