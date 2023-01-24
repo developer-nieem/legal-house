@@ -248,54 +248,83 @@
         <div class="text-center my-5">
             <h2 class="title-font-family pt-5 ">Frequently Asked Any Questions</h2>
              <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
-             <div class="row pt-4">
+             <div class="row pt-4 align-items-center">
                 <div class="col-md-6 text-start mb-3">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item my-2">
                           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                              Accordion Item #1
+                              1. Difference between CSS Grid and CSS Flexbox?
                             </button>
                           </h2>
-                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionPanelsStayOpenExample" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Grid:CSS Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning. Like tables, grid layout allow us to align elements into columns and rows.
+
+                                To get started you have to define a container element as a grid with display: grid, set the column and row sizes with grid-template-columns and grid-template-rows, and then place its child elements into the grid with grid-column and grid-row.
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item my-2 border border-top-1">
                           <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                              Accordion Item #2
+                              2. What is purpose of media query?
                             </button>
                           </h2>
-                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample"   aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body">
-                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                The CSS Media Query gives you a way to apply CSS only when the browser and device environment matches a rule that you specify, for example "viewport is wider than 480 pixels". Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse. In this lesson you will first learn about the syntax used in media queries, and then move on to use them in a working example showing how a simple design might be made responsive.
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item my-2 border border-top-1">
                           <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                              Accordion Item #3
+                              3. What is CSS box model and how does it work?
                             </button>
                           </h2>
-                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree" data-bs-parent="#accordionPanelsStayOpenExample" >
                             <div class="accordion-body">
-                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                             <p>A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS.</p>
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item my-2 border border-top-1">
                           <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                              Accordion Item #3
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              4.What is the semantic tag?
                             </button>
                           </h2>
-                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour" data-bs-parent="#accordionPanelsStayOpenExample" >
                             <div class="accordion-body">
-                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                               <p> HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, its needs changed.
+
+                                Where the internet was originally intended for sharing scientific documents, now people wanted to share other things as well. Very quickly, people started wanting to make the web look nicer.
+                                
+                                Because the web was not initially built to be designed, programmers used different hacks to get things laid out in different ways. Rather than using the <sub>&lt;table&gt; &lt;table&gt;</sub> to describe information using a table, programmers would use them to position other elements on a page.
+                                
+                                As the use of visually designed layouts progressed, programmers started to use a generic “non-semantic” tag like <sub>&lt;div&gt;</sub>. They would often give these elements a class or id attribute to describe their purpose. For example, instead of <sub>&lt;header&gt;</sub> this was often written as <sub>&lt;div class="header"&gt;</sub>.
+                                
+                                As HTML5 is still relatively new, this use of non-semantic elements is still very common on websites today.
+                                
+                                List of new semantic elements
+                                The semantic elements added in HTML5 are:
+                               <strong> &lt;article&gt;
+                                &lt;aside&gt;
+                                &lt;details&gt;
+                                &lt;figcaption&gt;
+                                &lt;figure&gt;
+                                &lt;footer&gt;
+                                &lt;header&gt;
+                                &lt;main&gt;
+                                &lt;mark&gt;
+                                &lt;nav&gt;
+                                &lt;section&gt;
+                                &lt;summary&gt;
+                                &lt;time&gt;</strong>
+                            </p>
+                                
+                                
                             </div>
                           </div>
                         </div>
