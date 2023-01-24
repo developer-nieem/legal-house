@@ -47,6 +47,7 @@
     margin-left: -12px;
   }
 
+
   /* Mobile Responsive CSS */
 @media screen and (max-width:576px){
     .hero-button{
@@ -56,18 +57,37 @@
     }
    
     .slider-fixed{
-        height: 100%;
+        height: 400px;
        
+    }
+    .slider-fixed .carousel-item >img{
+        height: 400px;
     }
     .carousel-item > div {
         padding-top: 50px;
       }
-      
-    .slider-content-fix{
-        bottom: 1.0rem;
-    }
-    
+ 
     .contact-border , .card-border{
        border: none !important;
       }
+}
+
+@media screen and (min-width:577px) and (max-width:766px){
+    .hero-button{
+        width: 100% !important;
+        margin-top: 10px;
+        margin-left: 0px !important;
+       }
+
+       .slider-fixed{
+        height: 400px;
+       
+    }
+    .slider-fixed .carousel-item >img{
+        height: 400px;
+    }
+
+    .contact-border , .card-border{
+        border: none !important;
+       }
 }
