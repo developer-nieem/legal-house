@@ -49,6 +49,12 @@
 
   /* Mobile Responsive CSS */
 @media screen and (max-width:576px){
+    .hero-button{
+     width: 100% !important;
+     margin-top: 10px;
+     margin-left: 0px !important;
+    }
+   
     .slider-fixed{
         height: 100%;
        
@@ -61,4 +67,7 @@
         bottom: 1.0rem;
     }
     
+    .contact-border , .card-border{
+       border: none !important;
+      }
 }
